@@ -29,3 +29,23 @@ What
    * A Jekyll template. 
    * Tools (shell scripts to call git) for gh-page distribution. 
    * Some sample review pages.
+
+Status
+------
+
+In the foreseeable future, I would not have much time on this repo. 
+
+   * If you are farmiliar with Jekyll and what I'm pursuing here, 
+   I'll be glad to add you as a collaborator. 
+   You will be a main driving force. 
+   * Welcome to implement it under your own repo. 
+   Then I'll link to yours without any hesitate. 
+   * If you understand what I'm pursuing but do not know how, 
+   I would be happy to discuss with you and provide tech support.
+
+Although the template is not ready,
+I will keep on writing notes in another repo.
+I feel comfortable with this, because my content is under my own control
+and I can distribute them easily at any time.
+
+If you like more wild idea, see `daydreaming.md`. 
