@@ -25,10 +25,10 @@ author :
 navigation:
   - 
     name: Index
-    href: /index.html
+    href: index.html
   - 
     name: About
-    href: /about.html
+    href: about.html
 
 future:      true
 markdown:    redcarpet
@@ -88,7 +88,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : /5carts
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -116,7 +116,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : eightroads
+      short_name : 5carts
     livefyre :
       site_id : 123
     intensedebate :
