@@ -1,0 +1,23 @@
+{% comment %}<!--
+Usage:
+  1) Assign the 'current_review' variable to a valid review page
+  2) Include 5carts/parse_current_review
+  3) The following variables will be set:
+     * _is_review
+     * _category
+  example:
+-->{% endcomment %}
+
+{% if current_review.layout == 'review' %}
+	{% assign _is_review = true %}
+{% else %}
+	{% assign _is_review = false %}
+{% endif %}
+
+{% if current_review.category == nil %}
+	{% capture _category %}
+		{{ current_review.url | remove_first:'/' | split:'/' | first }}
+	{% endcapture %}
+{% else %}
+	{% assign _category = current_review.category %}
+{% endif %}
