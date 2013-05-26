@@ -19,17 +19,17 @@ title: Index
 	{% include 5carts/parse_current_review %}
 	{% if _is_review == true %}
 	<tr>
-		<td> {{ p.name }} </td>
+		<td> {{ _name }} </td>
 		<td> {{ _category }} </td>
 		<td> 
-			<a href="{{ p.link }}">Go</a>
+			<a href="{{ _link }}">Go</a>
 		</td>
-		<td> {{ p.open_source }} </td>
-		<td> {{ p.open_format }} </td>
-		<td> {{ p.rate_use }} </td>
-		<td> {{ p.rate_quality }} </td>
+		<td> {{ _open_source }} </td>
+		<td> {{ _open_format }} </td>
+		<td> {{ _rate_use }} </td>
+		<td> {{ _rate_quality }} </td>
 		<td>
-			<a class="" href="{{ p.url }}"> more...</a>	
+			<a class="" href="{{ _url }}"> more...</a>	
 		</td>			
 	</tr>
 	{% endif %}
