@@ -13,6 +13,7 @@ Usage:
 
 {% assign _date = current_review.date %}
 {% assign _name = current_review.name %}
+{% assign _alias = current_review.alias %}
 {% assign _link = current_review.link %}
 {% assign _tags = current_review.tags %}
 {% assign _rate_quality = current_review.rate_quality %}
