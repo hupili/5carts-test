@@ -1,6 +1,7 @@
 ---
 category: website
 name: 5carts
+alias: ["五车", "五車"]
 link: https://hupili.github.io/5carts
 date: 2013-05-21
 open_source: true
